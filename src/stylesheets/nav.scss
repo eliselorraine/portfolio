@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+
+$main-font: 'Mukta', sans-serif;
+$soft-orange: #c56b52;
+$aqua: #7ac2bc;  
+$peach: #E8A87C;
+$dusty-rose: #C38D9E;
+$turquoise: #1f554e;
+
+.nav_wrapper {
+    display: flex;
+    flex-direction: column; 
+    background-color: $turquoise;
+    height: 100%;
+    bottom: 0;
+    position: fixed;
+    width: 200px;
+    // justify-content: center;
+}
+
+.nav_list {
+    margin-top: 127px;
+    padding-left: 0px;
+}
+
+.nav_link {
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: $main-font;
+    font-size: 20px;
+    padding-left: 10px;
+    filter: blur(0.4px);
+    -webkit-filter: blur(0.4px);
+}
+
+.nav_link:hover {
+    color: $dusty-rose;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    text-shadow: .5px .5px whitesmoke;
+}
+
+.nav_border {
+    background-color: $dusty-rose;
+    height: 2px;
+    width: 215px;
+    margin-left: 0;
+}
+
+.nav_corner {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid $peach;
+    border-left: 200px solid transparent;
+    bottom: 0;
+    position: absolute;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.github-icon {
+    color: $soft-orange;
+    font-size: 45px;
+    margin-top: 6px;
+}
+
+.linkedin-icon {
+    color: $soft-orange;
+    font-size: 55px;
+}
+
+

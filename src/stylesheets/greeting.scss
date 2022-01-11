@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+$handwritten-font:  'Permanent Marker', cursive;
+
+.greeting_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-top: 50px;
+}
+.greeting_intro, .greeting_details {
+    font-family: $handwritten-font;
+}
