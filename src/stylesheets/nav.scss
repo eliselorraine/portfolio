@@ -60,10 +60,17 @@ $turquoise: #1f554e;
 .icon-container {
     display: flex;
     flex-direction: row;
-    margin-left: 90px;
+    margin-left: 78px;
     bottom: 0;
     position: absolute;
     z-index: 1;
+}
+
+.github-text {
+    color: $soft-orange;
+    font-size: 25px;
+    margin-top: 33px;
+    margin-right: -10px;
 }
 
 .github-icon {
@@ -75,6 +82,10 @@ $turquoise: #1f554e;
 .linkedin-icon {
     color: $soft-orange;
     font-size: 55px;
+}
+
+a {
+    height: 55px;
 }
 
 

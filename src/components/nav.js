@@ -3,6 +3,7 @@ import '../stylesheets/nav.scss'
 
 import { FiGithub } from 'react-icons/fi'
 import { IoLogoLinkedin } from 'react-icons/io'
+import { GoLogoGithub } from 'react-icons/go'
 
 const Nav = () => {
     return (
@@ -17,6 +18,7 @@ const Nav = () => {
                 <li className="nav_link nav_link--li"><Link className="nav_link nav_link--router" to="/contact">contact</Link></li>
                 <div className="nav_border"></div>
                 <div className="icon-container">
+                    <a href="https://github.com/eliselorraine"><GoLogoGithub className="github-text" /></a>
                     <a href="https://github.com/eliselorraine"><FiGithub className="github-icon" /></a>
                     <a href="https://www.linkedin.com/in/elise-lawrence-2bb036190/"><IoLogoLinkedin className="linkedin-icon" /></a>
                 </div>
