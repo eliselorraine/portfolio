@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+$main-font: 'Mukta', sans-serif;
+$handwritten-font:  'Permanent Marker', cursive;
+$soft-orange: #c56b52;
+$aqua: #7ac2bc;  
+$peach: #E8A87C;
+$dusty-rose: #C38D9E;
+$turquoise: #1f554e;
+$salt-blue: #9ab2cf;
+
+.about_wrapper {
+    width: 50vw;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.about_paragraph {
+    font-family: $handwritten-font;
+}
+
+.about_salt {
+    text-decoration: none;
+    color: $dusty-rose;
+}
+
+.about_salt:hover {
+    color: $salt-blue;
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+}
+

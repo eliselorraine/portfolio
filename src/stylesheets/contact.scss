@@ -1,7 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
 
+$light-font: 'Mukta Vaani', sans-serif;
+$main-font: 'Mukta', sans-serif;
+$handwritten-font:  'Permanent Marker', cursive;
+$soft-orange: #c56b52;
+$aqua: #7ac2bc;  
+$peach: #E8A87C;
+$dusty-rose: #C38D9E;
+$turquoise: #1f554e;
+$salt-blue: #9ab2cf;
+
+.contact_container {
+    margin: 100px 0px 0px 60px;
+    background-color: $aqua;
+    width: 525px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    opacity: .80;
+}
 
 .contact_form {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 450px;
+}
+
+.contact_label {
+    font-size: 17px;
+    font-family: $light-font;
+    color: $turquoise;
+    margin: 10px 0px 10px 0px;
+}
+
+.contact_input {
+    height: 25px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: $light-font;
+    color: lightslategray;
+}
+
+.contact_input--inquiry {
+    height: 200px;
+    resize: none;
+}
+
+.contact_button--submit {
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    width: 250px;
+    font-family: $main-font;
+    background-color: $turquoise;
+    color: whitesmoke;
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+}
+
+.contact_button--submit:hover {
+    color: $dusty-rose;
+    text-shadow: .5px .5px whitesmoke;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.contact_button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
 }
