@@ -46,21 +46,21 @@ $turquoise: #1f554e;
     height: 2px;
     width: 215px;
     margin-left: 0;
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
+    // animation-duration: 3s;
+    // animation-name: slidein;
+    // animation-iteration-count: 1;
 }
 
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 400%;
-    }
+// @keyframes slidein {
+//     from {
+//         margin-left: 100%;
+//         width: 400%;
+//     }
 
-    to {
-        margin-left: 0%;
-    }
-}
+//     to {
+//         margin-left: 0%;
+//     }
+// }
 
 .nav_corner {
     width: 0;

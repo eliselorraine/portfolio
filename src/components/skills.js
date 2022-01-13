@@ -1,4 +1,4 @@
-import '../stylesheets/work.scss'
+import '../stylesheets/skills.scss'
 import { FaReact, FaSass, FaGitAlt, FaAws } from 'react-icons/fa';
 // import { GrGatsbyjs } from 'react-icons/gr';
 import { IoLogoNodejs } from 'react-icons/io';
@@ -23,40 +23,39 @@ import { SiRedux,
 
 const Skills = () => {
     return (
-    <div>
         <div className="work_text-wrapper">
             <div className="work_text--title">Frontend:</div>
             <p className="work_text">
-            <FaReact className="react-icon"/>React, 
-            <SiRedux className="redux-icon"/>Redux, 
-            <SiWebpack className="webpack-icon"/>Webpack, 
+            <FaReact className="skills-icon react-icon"/>React, &nbsp;
+            <SiRedux className="skills-icon redux-icon"/> Redux, &nbsp;  
+            <SiWebpack className="skills-icon webpack-icon"/> Webpack, &nbsp; 
             {/* <GrGatsbyjs />Gatsby,  */}
-            <SiHtml5 className="html-icon"/>HTML, 
-            <SiCss3 className="css-icon"/>CSS, 
-            <FaSass className="sass-icon"/>SASS</p>
+            <SiHtml5 className="skills-icon html-icon"/> HTML, &nbsp; 
+            <SiCss3 className="skills-icon css-icon"/> CSS, &nbsp;
+            <FaSass className="skills-icon sass-icon"/> SASS</p>
             <div className="work_text--title">Backend:</div>
             <p className="work_text">
-            <IoLogoNodejs className="node-icon"/>NodeJS, 
-            <SiExpress className="express-icon"/>ExpressJS, 
-            REST, 
-            <SiGraphql className="graphql-icon"/>GraphQL, 
-            <SiMongodb className="mongodb-icon"/>MongoDB, 
-            <SiPostgresql className="postgresql-icon"/>PostgreSQL</p>
+            <IoLogoNodejs className="skills-icon node-icon"/>NodeJS, &nbsp; 
+            <SiExpress className="skills-icon express-icon"/>ExpressJS, &nbsp;
+            REST, &nbsp;
+            <SiGraphql className="skills-icon graphql-icon"/>GraphQL, &nbsp; 
+            <SiMongodb className="skills-icon mongodb-icon"/>MongoDB, &nbsp;
+            <SiPostgresql className="skills-icon postgresql-icon"/>PostgreSQL</p>
             <div className="work_text--title">Tools and technologies:</div>
             <p className="work_text"> 
-            <SiVisualstudio className="vscode-icon"/>Visual Studio Code, 
+            <SiVisualstudio className="skills-icon vscode-icon"/>Visual Studio Code, &nbsp;
             {/* Handlebars/Mustache,  */}
-            <SiMocha className="mocha-icon"/>Mocha,
-            <SiJest className="jest-icon"/>Jest, 
-            <SiDocker className="docker-icon"/>Docker, 
-            <FaGitAlt className="git-icon"/>Git+<DiGithubFull className="github-text-icon"/>, 
-            <SiGithubactions className="actions-icon"/>GitHub Actions, 
-            <FaAws className="aws-icon"/>AWS, Cloud Platforms (MongoDB Atlas, ElephantSQL, 
-            <SiNetlify className="netlify-icon"/>Netlify, 
-            <SiHeroku className="heroku-icon"/>Heroku, 
-            <SiContentful className="contentful-icon"/>Contentful), TDD, Agile work methods</p>
+            <SiDocker className="skills-icon docker-icon"/>Docker, &nbsp;
+            <FaGitAlt className="skills-icon git-icon"/>Git, &nbsp;<DiGithubFull className="github-text-icon"/>, 
+            <SiGithubactions className="skills-icon actions-icon"/>GitHub Actions, &nbsp;
+            <FaAws className="skills-icon aws-icon"/>AWS, &nbsp; 
+            <SiMocha className="skills-icon mocha-icon"/>Mocha, &nbsp;
+            &nbsp;<SiJest className="skills-icon jest-icon"/>Jest, &nbsp; 
+            Cloud Platforms (MongoDB Atlas, &nbsp; ElephantSQL, &nbsp;
+            <SiNetlify className="skills-icon netlify-icon"/>Netlify, &nbsp;
+            <SiHeroku className="skills-icon heroku-icon"/>Heroku, &nbsp;
+            <SiContentful className="skills-icon contentful-icon"/>Contentful), &nbsp; TDD, &nbsp; Agile work methods</p>
         </div>
-    </div>
     )
 }
 

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
+
+$light-font: 'Mukta Vaani', sans-serif;
+$main-font: 'Mukta', sans-serif;
+$handwritten-font:  'Permanent Marker', cursive;
+$soft-orange: #c56b52;
+$aqua: #7ac2bc;  
+$peach: #E8A87C;
+$dusty-rose: #C38D9E;
+$turquoise: #1f554e;
+$salt-blue: #9ab2cf;
+
+.tile-container {
+    display: flex;
+    flex-direction: row;
+    font-family: $light-font;
+}
+
+.tile {
+    height: 400px;
+    margin: 10px;
+}

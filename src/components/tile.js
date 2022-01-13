@@ -1,7 +1,7 @@
-const Tile = () => {
+const Tile = (source) => {
     return (
         <div>
-           <img src="" />
+           <img src="podcast.gif" />
         </div>
     )
 }
