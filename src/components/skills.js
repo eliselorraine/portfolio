@@ -1,5 +1,4 @@
 import '../stylesheets/work.scss'
-import Tile from '../components/tile';
 import { FaReact, FaSass, FaGitAlt, FaAws } from 'react-icons/fa';
 // import { GrGatsbyjs } from 'react-icons/gr';
 import { IoLogoNodejs } from 'react-icons/io';
@@ -22,11 +21,12 @@ import { SiRedux,
     SiContentful } from 'react-icons/si';
 
 
-const Work = () => {
+const Skills = () => {
     return (
     <div>
         <div className="work_text-wrapper">
-            <p className="work_text"><div className="work_text--title">Frontend:</div>
+            <div className="work_text--title">Frontend:</div>
+            <p className="work_text">
             <FaReact className="react-icon"/>React, 
             <SiRedux className="redux-icon"/>Redux, 
             <SiWebpack className="webpack-icon"/>Webpack, 
@@ -34,14 +34,16 @@ const Work = () => {
             <SiHtml5 className="html-icon"/>HTML, 
             <SiCss3 className="css-icon"/>CSS, 
             <FaSass className="sass-icon"/>SASS</p>
-            <p className="work_text"><div className="work_text--title">Backend:</div>
+            <div className="work_text--title">Backend:</div>
+            <p className="work_text">
             <IoLogoNodejs className="node-icon"/>NodeJS, 
             <SiExpress className="express-icon"/>ExpressJS, 
             REST, 
             <SiGraphql className="graphql-icon"/>GraphQL, 
             <SiMongodb className="mongodb-icon"/>MongoDB, 
             <SiPostgresql className="postgresql-icon"/>PostgreSQL</p>
-            <p className="work_text"><div className="work_text--title">Tools and technologies:</div> 
+            <div className="work_text--title">Tools and technologies:</div>
+            <p className="work_text"> 
             <SiVisualstudio className="vscode-icon"/>Visual Studio Code, 
             {/* Handlebars/Mustache,  */}
             <SiMocha className="mocha-icon"/>Mocha,
@@ -54,9 +56,8 @@ const Work = () => {
             <SiHeroku className="heroku-icon"/>Heroku, 
             <SiContentful className="contentful-icon"/>Contentful), TDD, Agile work methods</p>
         </div>
-        <Tile />
     </div>
     )
 }
 
-export default Work; 
+export default Skills; 

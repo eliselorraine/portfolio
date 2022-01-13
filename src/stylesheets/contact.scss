@@ -19,7 +19,8 @@ $salt-blue: #9ab2cf;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    opacity: .80;
+    opacity: .70;
+    box-shadow: 3px 3px 15px $turquoise;
 }
 
 .contact_form {
@@ -41,6 +42,7 @@ $salt-blue: #9ab2cf;
     border-style: none;
     font-family: $light-font;
     color: lightslategray;
+    box-shadow: 1px 1px 1px $turquoise;
 }
 
 .contact_input--inquiry {

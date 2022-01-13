@@ -1,5 +1,9 @@
 const Tile = () => {
-    return <div>Hey I'm a Project Tile in training</div>
+    return (
+        <div>
+           <img src="" />
+        </div>
+    )
 }
 
 export default Tile;
