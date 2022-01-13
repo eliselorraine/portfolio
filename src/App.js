@@ -1,6 +1,6 @@
 import Greeting from './components/greeting';
 import About from './components/about';
-import Programming from './components/programming';
+import Work from './components/work';
 import Nav from './components/nav';
 import Contact from './components/contact';
 import { Routes, Route } from "react-router-dom";
@@ -15,7 +15,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Greeting />} exact />
             <Route path="/about" element={<About />} />
-            <Route path="/work" element={<Programming />} />
+            <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>

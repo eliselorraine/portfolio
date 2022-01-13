@@ -30,14 +30,14 @@ $turquoise: #1f554e;
     font-family: $main-font;
     font-size: 20px;
     padding-left: 10px;
-    filter: blur(0.4px);
-    -webkit-filter: blur(0.4px);
+    // filter: blur(0.4px);
+    // -webkit-filter: blur(0.4px);
 }
 
 .nav_link:hover {
     color: $dusty-rose;
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
+    // filter: blur(0px);
+    // -webkit-filter: blur(0px);
     text-shadow: .5px .5px whitesmoke;
 }
 
@@ -48,6 +48,7 @@ $turquoise: #1f554e;
     margin-left: 0;
     animation-duration: 3s;
     animation-name: slidein;
+    animation-iteration-count: 1;
 }
 
 @keyframes slidein {

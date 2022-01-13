@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
+
+$light-font: 'Mukta Vaani', sans-serif;
+$main-font: 'Mukta', sans-serif;
+$handwritten-font:  'Permanent Marker', cursive;
+$soft-orange: #c56b52;
+$aqua: #7ac2bc;  
+$peach: #E8A87C;
+$dusty-rose: #C38D9E;
+$turquoise: #1f554e;
+$salt-blue: #9ab2cf;
+
+.work_text {
+    font-family: $light-font;
+}
+
+.work_text--title {
+    font-family: $handwritten-font;
+}
+
+.react-icon {
+    color: #86D8F7;
+}
+
+.redux-icon {
+    color: #6E4EB6;
+}
+
+.webpack-icon {
+    color: #A0D4F6;
+}
+
+.html-icon { 
+    color: #d6693a;
+}
+
+.css-icon {
+    color: #3b67e9;
+}
+
+.sass-icon {
+    color: #ae4a7e;
+}
+
+.node-icon {
+    color: #769d69;
+}
+
+.graphql-icon {
+    color: #cb2e94;
+}
+
+.mongodb-icon {
+    color: #091e2a;
+}
+
+.postgresql-icon {
+    color: #42668d;
+}
+
+.vscode-icon {
+    color: #5aa1e3;
+}
+
+.mocha-icon {
+    color: #86684c;
+}
+
+.jest-icon {
+    color: #60be3b;
+}
+
+.docker-icon {
+    color: #4e95e6;
+}
+
+.git-icon {
+    color: #df5938;
+}
+
+.github-text-icon {
+    color: #25292e;
+}
+
+.actions-icon {
+    color: #669ef8;
+}
+
+.aws-icon {
+    color: #dd9644;
+}
+
+.netlify-icon {
+    color: #61a4ba;
+}
+
+.heroku-icon {
+    color: #3b1092;
+}
+
+.contentful-icon {
+    color: #c25160;
+}
