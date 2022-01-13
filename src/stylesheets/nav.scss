@@ -7,6 +7,7 @@ $peach: #E8A87C;
 $dusty-rose: #C38D9E;
 $turquoise: #1f554e;
 
+
 .nav_wrapper {
     display: flex;
     flex-direction: column; 
@@ -14,9 +15,15 @@ $turquoise: #1f554e;
     height: 100%;
     bottom: 0;
     position: fixed;
-    width: 200px;
+    max-width: 200px;
     // justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav_wrapper {
+        display: none;
+    }
+  }
 
 .nav_list {
     margin-top: 127px;

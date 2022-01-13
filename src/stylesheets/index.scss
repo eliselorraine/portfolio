@@ -13,3 +13,10 @@ body {
     margin-left: 230px;
     max-width: 800px;
 }
+
+@media only screen and (max-width: 600px) {
+    .content_wrapper {
+        margin-left: 50px;
+        margin-bottom: 70px;
+    }
+  }

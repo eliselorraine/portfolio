@@ -18,6 +18,13 @@ $salt-blue: #9ab2cf;
     font-family: $handwritten-font;
 }
 
+@media only screen and (max-width: 600px) {
+    .work_text, .work_text--title {
+        width: 300px;
+        margin-left: 50px;
+    }
+  }
+
 .react-icon {
     color: #86D8F7;
 }
