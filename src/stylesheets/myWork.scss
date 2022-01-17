@@ -4,7 +4,7 @@ $light-font: 'Mukta Vaani', sans-serif;
 $main-font: 'Mukta', sans-serif;
 $handwritten-font:  'Permanent Marker', cursive;
 $soft-orange: #c56b52;
-$aqua: #7ac2bc;  
+$aqua: #7ac2bc52;  
 $peach: #E8A87C;
 $dusty-rose: #C38D9E;
 $turquoise: #1f554e;
@@ -12,11 +12,35 @@ $salt-blue: #9ab2cf;
 
 .tile-container {
     display: flex;
-    flex-direction: row;
-    font-family: $light-font;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 
 .tile {
-    height: 400px;
-    margin: 10px;
+    max-width: 300px;
+    margin: 20px;
+    font-family: $light-font;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tile_image {
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.tile_title {
+    font-family: $handwritten-font;
+}
+
+.tile_description {
+    background-color: $aqua;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.tile_description--long {
+    margin: 0px;
 }

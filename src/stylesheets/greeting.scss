@@ -15,7 +15,7 @@ $salt-blue: #9ab2cf;
     justify-content: center;
     align-items: center;
     width: 50vw;
-    margin-top: 50px;
+    height: 100vh;
 }
 
 .greeting_intro, .greeting_details, .greeting_checkout {
@@ -36,7 +36,9 @@ $salt-blue: #9ab2cf;
 
 .here-button {
     display: block;
-    color: $turquoise;
+    text-shadow: 1px 1px $turquoise;
+    font-size: 25px;
+    color: $dusty-rose;
     text-decoration: none;
     padding-left: 15px;
 }
@@ -44,5 +46,6 @@ $salt-blue: #9ab2cf;
 .here-button:hover {
     text-shadow: 1px 1px $turquoise;
     font-size: 25px;
-    color: $dusty-rose;
+    color: $aqua;
+
 }

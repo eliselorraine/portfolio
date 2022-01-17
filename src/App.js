@@ -12,12 +12,16 @@ const App = () => {
     <div>
       <Nav />
         <div className="content_wrapper">
-          <Routes>
+          <Greeting />
+          <About />
+          <MyWork />
+          <Contact />
+          {/* <Routes>
             <Route path="/" element={<Greeting />} exact />
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<MyWork />} />
             <Route path="/contact" element={<Contact />} />
-          </Routes>
+          </Routes> */}
         </div>
     </div>
   );

@@ -10,8 +10,14 @@ $dusty-rose: #C38D9E;
 $turquoise: #1f554e;
 $salt-blue: #9ab2cf;
 
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact_container {
-    margin: 100px 0px 0px 60px;
     background-color: $aqua;
     width: 60%;
     height: 600px;
