@@ -12,16 +12,30 @@ $salt-blue: #9ab2cf;
 .about_wrapper {
     width: 50vw;
     font-size: 30px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex: column;
     justify-content: center;
     align-items: center;
 }
 
+
 .about_paragraph {
     font-family: $handwritten-font;
 }
+
+@media only screen and (max-width: 600px) {
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about_wrapper {
+        width: 80%;
+        font-size: 20px;
+    }
+  }
 
 .about_salt {
     text-decoration: none;

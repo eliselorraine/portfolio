@@ -15,29 +15,44 @@ $salt-blue: #9ab2cf;
     justify-content: center;
     align-items: center;
     width: 50vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .greeting_intro, .greeting_details, .greeting_checkout {
     font-family: $handwritten-font;
 }
 
-@media only screen and (max-width: 600px) {
-    .greeting_intro, .greeting_details, .greeting_checkout {
-        width: 300px;
-        margin-left: 50px;
-    }
-  }
 
 .greeting_checkout {
     font-size: 23px;
     display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+    .greeting_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .greeting_intro, .greeting_details, .greeting_checkout {
+        font-size: 20px;
+        width: 80%;
+    }
+    .greeting_checkout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+  }
+
 .here-button {
     display: block;
     text-shadow: 1px 1px $turquoise;
-    font-size: 25px;
+    font-size: 23px;
     color: $dusty-rose;
     text-decoration: none;
     padding-left: 15px;
@@ -47,5 +62,19 @@ $salt-blue: #9ab2cf;
     text-shadow: 1px 1px $turquoise;
     font-size: 25px;
     color: $aqua;
-
 }
+
+@media only screen and (max-width: 600px) {
+    .here-button {
+        padding-left: 5px;
+        font-size: 20px;
+    }
+
+    .greeting_checkout {
+        font-size: 20px;
+    }
+
+    .here-button:hover {
+        font-size: 20px;
+    }
+  }

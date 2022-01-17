@@ -17,6 +17,7 @@ $salt-blue: #9ab2cf;
     align-items: center;
 }
 
+
 .contact_container {
     background-color: $aqua;
     width: 60%;
@@ -29,6 +30,15 @@ $salt-blue: #9ab2cf;
     box-shadow: 3px 3px 15px $turquoise;
 }
 
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+    }
+
+    .contact_container {
+        width: 80%;
+    }
+  }
 .contact_form {
     display: flex;
     flex-direction: column;

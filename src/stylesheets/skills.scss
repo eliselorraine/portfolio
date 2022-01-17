@@ -19,9 +19,10 @@ $salt-blue: #9ab2cf;
 }
 
 @media only screen and (max-width: 600px) {
-    .work_text, .work_text--title {
-        width: 300px;
-        margin-left: 50px;
+    .work_text-wrapper {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 20px;
     }
   }
 

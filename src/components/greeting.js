@@ -1,3 +1,4 @@
+// import TypeIt from "typeit-react";
 import '../stylesheets/greeting.scss'
 import Skills from '../components/skills'
 
