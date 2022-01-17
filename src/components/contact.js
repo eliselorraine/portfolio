@@ -3,6 +3,9 @@ import { useState } from 'react';
 import { send } from 'emailjs-com';
 // require('dotenv').config({ path: `portfolio-site/.env` });
 
+import { FiGithub } from 'react-icons/fi'
+import { IoLogoLinkedin } from 'react-icons/io'
+
 const Contact = () => {
     const from_name = document.getElementById('from_name');
     const email = document.getElementById('email');
@@ -53,6 +56,10 @@ const Contact = () => {
                         <label className="contact_label" htmlFor="inquiry">What would you like to be in touch about?</label>
                         <textarea name="message" className="contact_input contact_input--inquiry" id="message" placeholder="Write your message here..." onChange={handleChange}></textarea>
                         <div className="contact_button-container"><button className="contact_button--submit" type="submit" onClick={handleSubmit}>Send</button></div>
+                        <div className="contact_links">
+                            <a href="https://github.com/eliselorraine" className="contact_links--a"><FiGithub /></a>
+                            <a href="https://www.linkedin.com/in/elise-lawrence-2bb036190/" className="contact_links--a"><IoLogoLinkedin /></a>
+                        </div>
                     </form>
                 </div>
             </div>
