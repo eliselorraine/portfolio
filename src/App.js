@@ -3,7 +3,6 @@ import About from './components/about';
 import MyWork from './components/myWork';
 import Nav from './components/nav';
 import Contact from './components/contact';
-import { Routes, Route } from "react-router-dom";
 
 import './stylesheets/index.scss'
 
@@ -16,12 +15,6 @@ const App = () => {
           <About />
           <MyWork />
           <Contact />
-          {/* <Routes>
-            <Route path="/" element={<Greeting />} exact />
-            <Route path="/about" element={<About />} />
-            <Route path="/work" element={<MyWork />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes> */}
         </div>
     </div>
   );
