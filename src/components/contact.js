@@ -1,7 +1,6 @@
 import '../stylesheets/contact.scss'
 import { useState } from 'react';
 import { send } from 'emailjs-com';
-// require('dotenv').config({ path: `portfolio-site/.env` });
 
 import { FiGithub } from 'react-icons/fi'
 import { IoLogoLinkedin } from 'react-icons/io'
@@ -20,10 +19,10 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         send(
-            'SERVICE_ID',
-            'TEMPLATE_ID',
+            process.env.SERVICE_ID,
+            process.env.TEMPLATE_ID,
             toSend,
-            'USER_ID',
+            process.env.USER_ID,
         ).then((response) => {
             console.log('Success!', response.status, response.text)
             from_name.value = '';
