@@ -1,11 +1,5 @@
 import '../stylesheets/footer.scss'
 
-import { AiTwotoneHome } from 'react-icons/ai';
-import { CgDetailsMore } from 'react-icons/cg';
-import { GrProjects } from 'react-icons/gr'
-import { MdContactMail } from 'react-icons/md'
-
-
 const Footer = () => {
     return (
         <div className="footer_container">
