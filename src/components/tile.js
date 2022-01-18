@@ -3,7 +3,6 @@ import '../stylesheets/myWork.scss'
 const Tile = (props) => {
     return (
         <div className="tile" alt="project">
-            {/* <img className="tile_image" src={props.source} /> */}
             <div className="tile_description">
                 <h3 className="tile_title">{props.title}</h3>
                 <p className="tile_description--long" >{props.description}</p>
