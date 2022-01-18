@@ -19,10 +19,10 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         send(
-            process.env.SERVICE_ID,
-            process.env.TEMPLATE_ID,
+            SERVICE_ID,
+            TEMPLATE_ID,
             toSend,
-            process.env.USER_ID,
+            USER_ID,
         ).then((response) => {
             console.log('Success!', response.status, response.text)
             from_name.value = '';
