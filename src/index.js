@@ -1,9 +1,8 @@
-import env from "react-dotenv";
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// wondering if I should import the dotenv-react here
 
 ReactDOM.render(
   <React.StrictMode>
