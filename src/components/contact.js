@@ -1,3 +1,5 @@
+import env from "react-dotenv";
+
 import '../stylesheets/contact.scss'
 import { useState } from 'react';
 import { send } from 'emailjs-com';
@@ -19,10 +21,10 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         send(
-            process.env.SERVICE_ID,
-            process.env.TEMPLATE_ID,
+            env.SERVICE_ID,
+            env.TEMPLATE_ID,
             toSend,
-            'user_JE6ZKOmHFP5PgtPhC5NAQ',
+            env.USER_ID,
         ).then((response) => {
             console.log('Success!', response.status, response.text)
             from_name.value = '';
