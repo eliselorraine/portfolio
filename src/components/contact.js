@@ -22,7 +22,7 @@ const Contact = () => {
             process.env.SERVICE_ID,
             process.env.TEMPLATE_ID,
             toSend,
-            process.env.USER_ID,
+            'user_JE6ZKOmHFP5PgtPhC5NAQ',
         ).then((response) => {
             console.log('Success!', response.status, response.text)
             from_name.value = '';
