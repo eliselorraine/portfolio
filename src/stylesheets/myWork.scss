@@ -45,11 +45,6 @@ $salt-blue: #9ab2cf;
     }
   }
 
-// .tile_image {
-//     // max-width: 250px;
-//     border-radius: 5px;
-// }
-
 .tile_title {
     font-family: $handwritten-font;
 }
@@ -58,8 +53,18 @@ $salt-blue: #9ab2cf;
     background-color: $aqua;
     border-radius: 10px;
     padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tile_description--long {
     margin: 0px;
+}
+
+.tile_demo-gif {
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 7px lightslategray;
 }
