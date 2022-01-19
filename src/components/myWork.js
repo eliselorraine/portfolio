@@ -6,6 +6,12 @@ const MyWork = () => {
         <section id="3">
             <div className="projects">
                 <div className="tile-container">
+                    <Tile source="podcast.gif"
+                        title="Hook: the Podcast App"
+                        description="A fullstack Javascript application for the aspiring podcast listener. Using the Listen Notes API, the user can search for podcast episodes by keyword and save episodes to their list for later listening. Additionally, users can click on the episode thumbnails to view details about the podcast, plus paginate through earlier episodes as well as search results."
+                        tech="Tech stack: React, CSS, NodeJS, ExpressJS"
+                        link="https://github.com/eliselorraine/react-todo" 
+                        github="View the code (Github)" />
                     <Tile source="todo.gif"
                         alt="to do list demo"
                         className="todo-tile"
@@ -13,12 +19,6 @@ const MyWork = () => {
                         description="A simple to do app built with React. It gives the user the ability to add a new task, edit the task, mark the task as done, and remove the task from their list. The app saves user's list on refresh."
                         tech="Tech stack: React, Redux, CSS, Jest"
                         link="https://github.com/eliselorraine/react-todo"
-                        github="View the code (Github)" />
-                    <Tile source="podcast.gif"
-                        title="Hook: the Podcast App"
-                        description="A fullstack Javascript application for the aspiring podcast listener. Using the Listen Notes API, the user can search for podcast episodes by keyword and save episodes to their list for later listening. Additionally, users can click on the episode thumbnails to view details about the podcast, plus paginate through earlier episodes as well as search results."
-                        tech="Tech stack: React, CSS, NodeJS, ExpressJS"
-                        link="https://github.com/eliselorraine/react-todo" 
                         github="View the code (Github)" />
                     <Tile
                         source="proCoScreenshot.png"
