@@ -3,6 +3,7 @@ import '../stylesheets/nav.scss'
 import { FiGithub } from 'react-icons/fi'
 import { IoLogoLinkedin } from 'react-icons/io'
 import { GoLogoGithub } from 'react-icons/go'
+import { BsArrowDown } from 'react-icons/bs'
 
 const Nav = () => {
     return (
@@ -24,6 +25,7 @@ const Nav = () => {
                 <div className="nav_corner">
                 </div>
             </ul>
+            <BsArrowDown className="scroll-icon" />
         </div>
     )
 }

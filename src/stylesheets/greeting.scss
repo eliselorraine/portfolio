@@ -51,22 +51,21 @@ $salt-blue: #9ab2cf;
 
 .here-button {
     display: block;
+    font-family: $handwritten-font;
     text-shadow: 1px 1px $turquoise;
     font-size: 23px;
     color: $dusty-rose;
     text-decoration: none;
-    padding-left: 15px;
 }
 
 .here-button:hover {
     text-shadow: 1px 1px $turquoise;
-    font-size: 25px;
+    font-size: 23px;
     color: $aqua;
 }
 
 @media only screen and (max-width: 600px) {
     .here-button {
-        padding-left: 5px;
         font-size: 20px;
     }
 
