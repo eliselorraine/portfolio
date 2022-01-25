@@ -28,6 +28,12 @@ const MyWork = () => {
                         tech="Tech stack: React, Redux, ElephantSQL, NodeJS, ExpressJS, JWT, CSS"
                         link="https://youtu.be/A1jlWxb8cx4"
                         github="View a demo (YouTube)" />
+                    <Tile source="TypeScript.gif"
+                        title="TypeScript Calculator"
+                        description="A simple calculator project to help me learn TypeScript. Can handle basic mathematical calculations with two numbers."
+                        tech="Tech stack: React, TypeScript, CSS, NodeJS"
+                        link="https://github.com/eliselorraine/typescriptCalculator" 
+                        github="View the code (Github)" />
                 </div>
             </div>
         </section>
