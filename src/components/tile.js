@@ -9,6 +9,7 @@ const Tile = (props) => {
                 <p className="tile_description--long" >{props.description}</p>
                 <p>{props.tech}</p>
                 <a href={props.link}>{props.github}</a>
+                <a href={props.live}>{props.site}</a>
             </div>
         </div>
     )

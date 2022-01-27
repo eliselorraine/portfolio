@@ -33,7 +33,9 @@ const MyWork = () => {
                         description="A simple calculator project to help me learn TypeScript. Can handle basic mathematical calculations with two numbers."
                         tech="Tech stack: React, TypeScript, CSS, NodeJS"
                         link="https://github.com/eliselorraine/typescriptCalculator" 
-                        github="View the code (Github)" />
+                        github="View the code (Github)" 
+                        site="Check out the site" 
+                        live="https://typescript-calc.netlify.app/"/>
                 </div>
             </div>
         </section>
