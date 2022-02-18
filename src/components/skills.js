@@ -24,9 +24,11 @@ import { SiRedux,
 const Skills = () => {
     return (
         <div className="work_text-wrapper">
+            {/* <div className="work_text--title">Languages:</div>
+            <p className="work_text">Javascript &amp; TypeScript</p> */}
             <div className="work_text--title">Frontend:</div>
             <p className="work_text">
-            <FaReact className="skills-icon react-icon"/>React, &nbsp;
+            <FaReact className="skills-icon react-icon"/>React/React Native, &nbsp;
             <SiRedux className="skills-icon redux-icon"/> Redux, &nbsp;  
             <SiWebpack className="skills-icon webpack-icon"/> Webpack, &nbsp; 
             {/* <GrGatsbyjs />Gatsby,  */}
