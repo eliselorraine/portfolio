@@ -28,7 +28,7 @@ const Skills = () => {
             <p className="work_text">Javascript &amp; TypeScript</p> */}
             <div className="work_text--title">Frontend:</div>
             <p className="work_text">
-                Javascript/Typescript
+                Javascript/Typescript, &nbsp;
             <FaReact className="skills-icon react-icon"/>React/React Native, &nbsp;
             <SiRedux className="skills-icon redux-icon"/> Redux, &nbsp;  
             <SiWebpack className="skills-icon webpack-icon"/> Webpack, &nbsp; 
@@ -38,7 +38,7 @@ const Skills = () => {
             <FaSass className="skills-icon sass-icon"/> SASS</p>
             <div className="work_text--title">Backend:</div>
             <p className="work_text">
-            Javascript/Typescript
+            Javascript/Typescript, &nbsp;
             <IoLogoNodejs className="skills-icon node-icon"/>NodeJS, &nbsp; 
             <SiExpress className="skills-icon express-icon"/>ExpressJS, &nbsp;
             REST, &nbsp;
