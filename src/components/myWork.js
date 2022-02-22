@@ -8,7 +8,7 @@ const MyWork = () => {
                 <div className="tile-container">
                     <Tile source="podcast.gif"
                         title="Hook: the Podcast App"
-                        description="A fullstack Javascript application for the aspiring podcast listener. Using the Listen Notes API, the user can search for podcast episodes by keyword and save episodes to their list for later listening. Additionally, users can click on the episode thumbnails to view details about the podcast, plus paginate through earlier episodes as well as search results."
+                        description="A fullstack Javascript application for the aspiring podcast listener. Using the Listen Notes API, the user can search for podcast episodes by keyword and save episodes to their list for later listening. Additionally, users can click on the episode thumbnails to view details about the podcast, plus paginate through earlier episodes as well as search results. React Native version currently in development."
                         tech="Tech stack: React, CSS, NodeJS, ExpressJS"
                         link="https://github.com/eliselorraine/react-todo" 
                         github="View the code (Github)" />
