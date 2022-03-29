@@ -1,0 +1,25 @@
+@import 'variables';
+
+.tile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tile-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+  }

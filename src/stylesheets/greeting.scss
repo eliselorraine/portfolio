@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-$handwritten-font:  'Permanent Marker', cursive;
-$main-font: 'Mukta', sans-serif;
-$soft-orange: #c56b52;
-$aqua: #7ac2bc;  
-$peach: #E8A87C;
-$dusty-rose: #C38D9E;
-$turquoise: #1f554e;
-$salt-blue: #9ab2cf;
+@import 'variables';
 
 .greeting_wrapper {
     display: flex;
@@ -16,10 +7,12 @@ $salt-blue: #9ab2cf;
     align-items: center;
     width: 50vw;
     min-height: 100vh;
+    color: whitesmoke;
 }
 
 .greeting_intro, .greeting_details, .greeting_checkout {
     font-family: $handwritten-font;
+    text-align: center;
 }
 
 
@@ -36,10 +29,12 @@ $salt-blue: #9ab2cf;
         align-items: center;
         text-align: center;
     }
+
     .greeting_intro, .greeting_details, .greeting_checkout {
         font-size: 20px;
         width: 80%;
     }
+
     .greeting_checkout {
         display: flex;
         justify-content: center;
@@ -52,14 +47,14 @@ $salt-blue: #9ab2cf;
 .here-button {
     display: block;
     font-family: $handwritten-font;
-    text-shadow: 1px 1px $turquoise;
+    text-shadow: 1px 1px $navy;
     font-size: 23px;
-    color: $dusty-rose;
+    color: $light-green-linen;
     text-decoration: none;
 }
 
 .here-button:hover {
-    text-shadow: 1px 1px $turquoise;
+    text-shadow: 1px 1px $soft-black;
     font-size: 23px;
     color: $aqua;
 }

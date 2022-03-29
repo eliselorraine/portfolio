@@ -1,120 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
+@import 'variables';
 
-$light-font: 'Mukta Vaani', sans-serif;
-$main-font: 'Mukta', sans-serif;
-$handwritten-font:  'Permanent Marker', cursive;
-$soft-orange: #c56b52;
-$aqua: #7ac2bc;  
-$peach: #E8A87C;
-$dusty-rose: #C38D9E;
-$turquoise: #1f554e;
-$salt-blue: #9ab2cf;
-
-.work_text {
-    font-family: $light-font;
-}
-
-.work_text--title {
+.skills-header {
     font-family: $handwritten-font;
 }
 
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    height: 40px;
+    display: flex;
+    width: 170px;
+    align-items: center;
+    margin: 5px;
+
+    .skill-badge {
+        font-size: 27px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .skill-name {
+        font-family: $light-font;
+        font-size: 18px;
+        color: whitesmoke;
+    }
+}
+
 @media only screen and (max-width: 600px) {
-    .work_text-wrapper {
+    .skills-container {
         width: 80%;
         font-size: 14px;
         margin-top: 20px;
     }
-  }
 
-.react-icon {
-    color: #86D8F7;
+    .skill {
+        width: 90vw;
+    }
 }
-
-.redux-icon {
-    color: #6E4EB6;
-}
-
-.webpack-icon {
-    color: #A0D4F6;
-}
-
-.html-icon { 
-    color: #d6693a;
-}
-
-.css-icon {
-    color: #3b67e9;
-}
-
-.sass-icon {
-    color: #ae4a7e;
-}
-
-.node-icon {
-    color: #769d69;
-}
-
-.graphql-icon {
-    color: #cb2e94;
-}
-
-.mongodb-icon {
-    color: #091e2a;
-}
-
-.postgresql-icon {
-    color: #42668d;
-}
-
-.vscode-icon {
-    color: #5aa1e3;
-}
-
-.mocha-icon {
-    color: #86684c;
-}
-
-.jest-icon {
-    color: #60be3b;
-}
-
-.docker-icon {
-    color: #4e95e6;
-}
-
-.git-icon {
-    color: #df5938;
-}
-
-.github-text-icon {
-    color: #25292e;
-    font-size: 40px;
-    margin-bottom: -15px;
-}
-
-.actions-icon {
-    color: #669ef8;
-}
-
-.aws-icon {
-    color: #dd9644;
-}
-
-.netlify-icon {
-    color: #61a4ba;
-}
-
-.heroku-icon {
-    color: #3b1092;
-}
-
-.contentful-icon {
-    color: #c25160;
-}
-
-.skills-icon {
-    font-size: 20px;
-    height: 15px;
-}
-
-

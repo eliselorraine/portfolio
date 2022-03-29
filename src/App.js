@@ -1,6 +1,6 @@
 import Greeting from './components/greeting';
 import About from './components/about';
-import MyWork from './components/myWork';
+import Projects from './components/projects';
 import Nav from './components/nav';
 import Contact from './components/contact';
 import Footer from './components/footer';
@@ -14,7 +14,7 @@ const App = () => {
         <div className="content_wrapper">
           <Greeting />
           <About />
-          <MyWork />
+          <Projects />
           <Contact />
           <Footer />
         </div>

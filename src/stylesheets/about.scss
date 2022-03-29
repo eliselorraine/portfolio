@@ -1,27 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-$main-font: 'Mukta', sans-serif;
-$handwritten-font:  'Permanent Marker', cursive;
-$soft-orange: #c56b52;
-$aqua: #7ac2bc;  
-$peach: #E8A87C;
-$dusty-rose: #C38D9E;
-$turquoise: #1f554e;
-$salt-blue: #9ab2cf;
+@import 'variables';
 
 .about_wrapper {
     width: 50vw;
-    font-size: 30px;
+    font-size: 20px;
     min-height: 100vh;
     display: flex;
-    flex: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.quote {
+    font-family: $handwritten-font;
+    color: whitesmoke;
+}
 
 .about_paragraph {
-    font-family: $handwritten-font;
+    font-family: $main-font;
+    color: whitesmoke;
 }
 
 @media only screen and (max-width: 600px) {
@@ -39,7 +34,7 @@ $salt-blue: #9ab2cf;
 
 .about_salt {
     text-decoration: none;
-    color: $dusty-rose;
+    color: #B7094C;
 }
 
 .about_salt:hover {

@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
-
-$light-font: 'Mukta Vaani', sans-serif;
-$main-font: 'Mukta', sans-serif;
-$handwritten-font:  'Permanent Marker', cursive;
-$soft-orange: #c56b52;
-$aqua: #7ac2bc;  
-$peach: #E8A87C;
-$dusty-rose: #C38D9E;
-$turquoise: #1f554e;
-$salt-blue: #9ab2cf;
+@import 'variables';
 
 .contact {
     height: 100vh;
@@ -17,17 +7,17 @@ $salt-blue: #9ab2cf;
     align-items: center;
 }
 
-
 .contact_container {
-    background-color: $aqua;
-    width: 60%;
-    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    opacity: .70;
-    box-shadow: 3px 3px 15px $turquoise;
+    background-color: #0091AD;
+    width: 70vw;
+    max-width: 600px;
+    height: 600px;
+    // border-radius: 10px;
+    // opacity: .70;
+    // box-shadow: 3px 3px 15px $earth-green;
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,7 +26,7 @@ $salt-blue: #9ab2cf;
     }
 
     .contact_container {
-        width: 80%;
+        width: 70vw;
     }
   }
 .contact_form {
@@ -48,7 +38,7 @@ $salt-blue: #9ab2cf;
 .contact_label {
     font-size: 17px;
     font-family: $light-font;
-    color: $turquoise;
+    color: whitesmoke;
     margin: 10px 0px 10px 0px;
 }
 
@@ -57,8 +47,9 @@ $salt-blue: #9ab2cf;
     border-radius: 5px;
     border-style: none;
     font-family: $light-font;
-    color: lightslategray;
-    box-shadow: 1px 1px 1px $turquoise;
+    background-color: white;
+    // color: whitesmoke;
+    // box-shadow: 1px 1px 1px $earth-green;
 }
 
 .contact_input--inquiry {
@@ -73,12 +64,12 @@ $salt-blue: #9ab2cf;
     border-style: none;
     width: 250px;
     font-family: $main-font;
-    background-color: $turquoise;
+    background-color: #B7094C;
     color: whitesmoke;
 }
 
 .contact_button--submit:hover {
-    color: $dusty-rose;
+    color: lightslategray;
     text-shadow: .5px .5px whitesmoke;
     filter: blur(0px);
     -webkit-filter: blur(0px);
@@ -98,7 +89,7 @@ $salt-blue: #9ab2cf;
 
 .contact_links--a {
     font-size: 30px;
-    color: $turquoise;
+    color: #B7094C;
     margin-left: 10px;
 }
 
