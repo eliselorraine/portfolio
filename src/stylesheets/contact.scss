@@ -15,9 +15,6 @@
     width: 70vw;
     max-width: 600px;
     height: 600px;
-    // border-radius: 10px;
-    // opacity: .70;
-    // box-shadow: 3px 3px 15px $earth-green;
 }
 
 @media only screen and (max-width: 600px) {
@@ -37,7 +34,7 @@
 
 .contact_label {
     font-size: 17px;
-    font-family: $light-font;
+    font-family: $light-font-sans;
     color: whitesmoke;
     margin: 10px 0px 10px 0px;
 }
@@ -46,10 +43,8 @@
     height: 25px;
     border-radius: 5px;
     border-style: none;
-    font-family: $light-font;
+    font-family: $light-font-sans;
     background-color: white;
-    // color: whitesmoke;
-    // box-shadow: 1px 1px 1px $earth-green;
 }
 
 .contact_input--inquiry {
@@ -63,7 +58,7 @@
     border-radius: 10px;
     border-style: none;
     width: 250px;
-    font-family: $main-font;
+    font-family: $light-font-sans;
     background-color: #B7094C;
     color: whitesmoke;
 }

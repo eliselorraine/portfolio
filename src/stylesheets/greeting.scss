@@ -10,8 +10,22 @@
     color: whitesmoke;
 }
 
+.hello-icon-container {
+    display: flex;
+    align-items: center;
+
+    .hello-icon {
+        font-size: 40px;
+        padding: 10px;
+    }
+}
+
+.greeting_intro {
+    font-size: 50px;
+}
+
 .greeting_intro, .greeting_details, .greeting_checkout {
-    font-family: $handwritten-font;
+    font-family: $light-font-sans;
     text-align: center;
 }
 
@@ -19,6 +33,10 @@
 .greeting_checkout {
     font-size: 23px;
     display: flex;
+}
+
+.greeting_details {
+    margin-bottom: 75px;
 }
 
 @media only screen and (max-width: 600px) {

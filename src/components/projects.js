@@ -19,7 +19,7 @@ const Projects = () => {
             src="proCoScreenshot.png"
             alt="ProCo: The Consulting App"
             github="https://www.youtube.com/watch?v=A1jlWxb8cx4"
-            description="Made for consulting firms and their employees. As a consultant you can register your availability and view your schedule. Consulting firms can use ProCo to keep track of consultants' assignments and schedules."
+            description="Made for consulting firms and their employees. Consultants can enter their availability and view their schedules. Consulting firms can view consultants' availability and schedule assignments around it."
             linkDescription="Watch a demo"
           />
           <Project
