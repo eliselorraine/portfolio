@@ -5,7 +5,7 @@ const Skill = ({ name, type }) => {
   const str = `skill ${type}`;
 
   const colorChoice = (skillType) => {
-    let color;
+    let color = '#455E89';
     switch (skillType) {
       case "tool":
         return color = "#B7094C";
@@ -18,7 +18,7 @@ const Skill = ({ name, type }) => {
       case "framework":
         return color = "#5C4D7D";
       default:
-        return color = "#455E89";
+        return color;
     }
   };
 

@@ -1,7 +1,6 @@
 // import TypeIt from "typeit-react";
 import '../stylesheets/greeting.scss'
 import Skills from '../components/skills'
-import { RoughNotation } from "react-rough-notation";
 
 const Greeting = () => {
 
