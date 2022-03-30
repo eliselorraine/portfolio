@@ -29,13 +29,15 @@ const Projects = () => {
             github="https://github.com/eliselorraine/typescriptCalculator"
             description="A simple calculator I made with TypeScript. Add, subtract, multiply and divide any two numbers."
             linkDescription="See the code"
+            live='https://typescript-calc.netlify.app'
+            liveDescription="Try it out"
           />
           <Project
             title="To Do List"
             src="react-todo.gif"
             alt="To Do with React/Redux"
             github="https://github.com/eliselorraine/react-todo"
-            description="Everyone knows you can't become a developer without making a few to do apps. Mine uses Redux to manage adding, editing, and deleting tasks."
+            description="Every coder knows you can't become a developer without making a few to do apps. Mine uses Redux to manage adding, editing, and deleting tasks."
             linkDescription="See the code"
           />
         </div>

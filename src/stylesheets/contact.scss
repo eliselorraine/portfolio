@@ -11,21 +11,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0091AD;
+    background-color: $turquoise;
     width: 70vw;
     max-width: 600px;
     height: 600px;
 }
 
 .decoration {
-    box-shadow: inset 5px 10px #A01A58;
+    box-shadow: inset 5px 10px $fuschia-shadow;
     width: 70vw;
     max-width: 600px;
     height: 600px;
     margin-top: 50px;
     margin-left: -575px;
     z-index: -1;
-    background-color: #455E89;
+    background-color: $dark-turquoise;
 }
 
 @media only screen and (max-width: 600px) {
@@ -76,7 +76,7 @@
     border-style: none;
     width: 250px;
     font-family: $light-font-sans;
-    background-color: #B7094C;
+    background-color: $fuschia;
     color: whitesmoke;
 }
 
@@ -101,7 +101,7 @@
 
 .contact_links--a {
     font-size: 30px;
-    color: #B7094C;
+    color: $fuschia;
     margin-left: 10px;
 }
 

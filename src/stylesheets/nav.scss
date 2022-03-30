@@ -3,7 +3,7 @@
 .nav_wrapper {
   display: flex;
   flex-direction: column;
-  background-color: #b7094c;
+  background-color: $fuschia;
   height: 100%;
   bottom: 0;
   position: fixed;
@@ -35,8 +35,6 @@
 .nav_link--router:before,
 .nav_link--router:after {
   position: absolute;
-  //   margin-left: 10px;
-  // left: 40%;
   width: 15px;
   height: 15px;
   border: 1px solid #0277bd;
@@ -72,7 +70,7 @@
 }
 
 .nav_border {
-  background-color: #0091ad;
+  background-color: $turquoise;
   height: 2px;
   width: 215px;
   margin-top: -4px;
@@ -82,7 +80,7 @@
 .nav_corner {
   width: 0;
   height: 0;
-  border-bottom: 200px solid #0091ad;
+  border-bottom: 200px solid $turquoise;
   border-left: 200px solid transparent;
   bottom: 0;
   position: absolute;
@@ -111,7 +109,7 @@
 }
 
 .linkedin-icon {
-  color: white;
+  color: whitesmoke;
   font-size: 55px;
 }
 
@@ -119,28 +117,3 @@
   height: 55px;
 }
 
-.scroll-icon {
-  bottom: 0;
-  position: absolute;
-  margin-left: 215px;
-  margin-bottom: 15px;
-  font-size: 30px;
-  color: $soft-black;
-  animation: scroll;
-  animation-duration: 1s;
-  animation-iteration-count: 6;
-  animation-direction: alternate-reverse;
-  color: rgb(232, 235, 236);
-}
-
-@keyframes scroll {
-  from {
-    margin-bottom: 15%;
-    color: $soft-black;
-  }
-
-  to {
-    margin-bottom: 15px;
-    opacity: 0;
-  }
-}

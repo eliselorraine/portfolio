@@ -1,36 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Karla:wght@300&family=Major+Mono+Display&display=swap');
 
 $light-font-sans: 'Karla', sans-serif;
 $monospace-font: 'Major Mono Display', monospace;
-$main-font: 'Mukta', sans-serif;
-$light-font: 'Mukta Vaani', sans-serif;
-$handwritten-font:  'Permanent Marker', sans-serif;
+$bold-italic: 'Arimo', sans-serif;
 
-$soft-orange: #c56b52;
-$aqua: #7ac2bc;  
-$peach: #E8A87C;
-$dusty-rose: #C38D9E;
-$turquoise: #1f554e;
-$salt-blue: #9ab2cf;
-
-$soft-green:rgb(156, 188, 168);
-$navy:rgb(19, 38, 64);
-$earth-green:rgb(125, 129, 108);
-$soft-black:rgb(55, 55, 57);
-$green-linen:rgb(181, 186, 173);
-$light-green-linen:rgb(204, 198, 184);
-
-$test: #5A189A;
-
+$royal-purple: #240046;
+$fuschia: #B7094C;
+$fuschia-shadow: #A01A58;
+$dark-turquoise: #455E89;
+$turquoise: #0091AD;
 
 $colors: (
-    "#B7094C",
+    #B7094C,
     "#A01A58",
     "#892B64",
     "#723C70",

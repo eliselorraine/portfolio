@@ -1,91 +1,50 @@
-@import 'variables';
+@import "variables";
 
 .greeting_wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    min-height: 100vh;
-    color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  min-height: 100vh;
+  color: whitesmoke;
 }
 
 .hello-icon-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    .hello-icon {
-        font-size: 40px;
-        padding: 10px;
-    }
+  .hello-icon {
+    font-size: 40px;
+    padding: 10px;
+  }
 }
 
 .greeting_intro {
-    font-size: 50px;
+  font-size: 50px;
 }
 
-.greeting_intro, .greeting_details, .greeting_checkout {
-    font-family: $light-font-sans;
-    text-align: center;
-}
-
-
-.greeting_checkout {
-    font-size: 23px;
-    display: flex;
+.greeting_intro,
+.greeting_details {
+  font-family: $light-font-sans;
+  text-align: center;
 }
 
 .greeting_details {
-    margin-bottom: 75px;
+  margin-bottom: 75px;
 }
 
 @media only screen and (max-width: 600px) {
-    .greeting_wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .greeting_intro, .greeting_details, .greeting_checkout {
-        width: 80%;
-    }
-
-    .greeting_checkout {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-    }
+  .greeting_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
-.here-button {
-    display: block;
-    font-family: $handwritten-font;
-    text-shadow: 1px 1px $navy;
-    font-size: 23px;
-    color: $light-green-linen;
-    text-decoration: none;
-}
-
-.here-button:hover {
-    text-shadow: 1px 1px $soft-black;
-    font-size: 23px;
-    color: $aqua;
-}
-
-@media only screen and (max-width: 600px) {
-    .here-button {
-        font-size: 20px;
-    }
-
-    .greeting_checkout {
-        font-size: 20px;
-    }
-
-    .here-button:hover {
-        font-size: 20px;
-    }
+  .greeting_intro,
+  .greeting_details {
+    width: 80%;
   }
+}
