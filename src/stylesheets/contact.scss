@@ -17,13 +17,28 @@
     height: 600px;
 }
 
+.decoration {
+    box-shadow: inset 5px 10px #A01A58;
+    width: 70vw;
+    max-width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: -575px;
+    z-index: -1;
+    background-color: #455E89;
+}
+
 @media only screen and (max-width: 600px) {
     .contact {
         width: 100%;
     }
 
     .contact_container {
-        width: 70vw;
+        width: 90vw;
+    }
+
+    .decoration {
+        display: none;
     }
   }
 .contact_form {
@@ -42,12 +57,14 @@
 .contact_input {
     height: 25px;
     border-radius: 5px;
+    padding-left: 10px;
     border-style: none;
     font-family: $light-font-sans;
     background-color: white;
 }
 
 .contact_input--inquiry {
+    padding: 10px;
     height: 200px;
     resize: none;
 }

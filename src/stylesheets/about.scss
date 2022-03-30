@@ -10,8 +10,9 @@
     align-items: center;
 }
 .quote {
-    font-family: $light-font-sans;
+    font-family: $monospace-font;
     color: whitesmoke;
+    max-width: 400px;
 }
 
 .about_paragraph {
@@ -38,8 +39,6 @@
 }
 
 .about_salt:hover {
-    color: $salt-blue;
-    filter: blur(0.5px);
-    -webkit-filter: blur(0.5px);
+    color: #02b9dd;
 }
 

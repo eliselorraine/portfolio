@@ -9,8 +9,8 @@ const About = () => {
             For me, creativity is the key to great solutions.
           </p>
           <p className="about_paragraph">
-            I am a Full Stack Software Developer who transitioned from a
-            background in music. My coding journey started in February 2021,
+            I am a full stack web developer who transitioned from a
+            background in classical music. My coding journey started in February 2021,
             when I started playing with HTML, CSS, and Javascript through
             courses on freeCodeCamp.org. I was quickly hooked, and after many
             hours of my own practice I found myself invited to participate in

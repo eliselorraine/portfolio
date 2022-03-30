@@ -63,6 +63,7 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
+                <span className="decoration" />
             </div>
         </section>
     )

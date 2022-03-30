@@ -1,54 +1,71 @@
-@import 'variables';
+@import "variables";
 
 .project {
-    background-color: #B7094C;
-    display: flex;
+  background-color: #b7094c;
+  display: flex;
+  height: 300px;
+  width: 400px;
+  margin: 15px;
+
+  .project-img {
     height: 300px;
-    width: 400px;
-    margin: 15px;
+  }
 
-    .project-img {
-        height: 300px;
-    }
+  .project-title {
+    font-family: $light-font-sans;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
 
-    .project-title {
-        font-family: $light-font-sans;
-        text-align: center;
-        font-size: 20px;
-        margin-bottom: 10px; 
-        color: whitesmoke;
-    }
-    
-    .project-description {
-        font-family: $light-font-sans;
-        color: whitesmoke;
-        font-size: 15px;
-        margin: 0px 10px 10px 15px;
-    }
-    
-    .project-link {
-        font-family: $main-font;
-        font-size: 15px;
-        text-decoration: none;
-        color: whitesmoke;
-        margin-left: 15px;
-    }
+  .project-description {
+    font-family: $light-font-sans;
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 0px 10px 10px 15px;
+  }
+
+  .project-link {
+    font-family: $main-font;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 15px;
+    padding-right: 10px;
+  }
+
+  .project-link:after {
+    position: absolute;
+    content: "→";
+    margin-top: 1.2px;
+    transition: all 0.3s;
+    transform: translateX(40%);
+    opacity: 0;
+  }
+
+  .project-link:hover:after {
+    opacity: 1;
+    transform: translateX(60%);
+    transition: all 0.3s;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .project {
-        width: 90vw;
+  .project {
+    width: 90vw;
+    height: 350px;
 
-        .project-title {
-            font-size: 17px;
-        }
-
-        .project-description {
-            font-size: 13.5px;
-        }
+    .project-title {
+      font-size: 17px;
     }
 
+    .project-description {
+      font-size: 13.5px;
+    }
+
+    .project-img {
+      height: 350px;
+    }
   }
-
-
-
+}
