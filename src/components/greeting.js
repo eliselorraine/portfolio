@@ -11,8 +11,8 @@ const Greeting = () => {
           <MdWavingHand className="hello-icon" />
         </span>
         <h2 className="greeting_details">
-          I am a web developer based in Oslo, Norway who is
-          passionate about coding and frontend technology.
+          I am a full-stack web developer based in Oslo, Norway who is
+          passionate about coding and technology.
         </h2>
         <Skills />
       </div>
