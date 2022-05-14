@@ -19,9 +19,12 @@ const Project = ({
           <a className="project-link" href={github}>
             {linkDescription}
           </a>
+          {live ? 
           <a className="project-link" href={live}>
             {liveDescription}
           </a>
+          : null
+          }
         </span>
       </div>
       <img className="project-img" src={src} alt={alt}></img>
