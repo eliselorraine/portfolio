@@ -5,6 +5,7 @@ const Skills = () => {
   const skills = [
     { title: "JavaScript", type: "language" },
     { title: "TypeScript", type: "language" },
+    { title: "Python", type: "language" },
     { title: "HTML5", type: "language" },
     { title: "CSS3", type: "language" },
     { title: "Sass", type: "language" },
@@ -12,7 +13,6 @@ const Skills = () => {
     { title: "React", type: "framework" },
     { title: "React Native", type: "framework" },
     { title: "NextJS", type: "frontend" },
-    { title: "NestJS", type: "backend" },
     { title: "NodeJS", type: "backend" },
     { title: "Docker", type: "backend" },
     { title: "ExpressJS", type: "backend" },
